@@ -1,0 +1,19 @@
+{
+  "name": "release-workflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "./node_modules/.bin/semantic-release --dryRun"
+  },
+  "repository": {
+    "url": "https://github.com/pablogm95/releasing-workflow-test",
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "semantic-release": "^23.0.2"
+  }
+}
