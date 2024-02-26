@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "./node_modules/.bin/semantic-release --dryRun"
+    "release": "node -r dotenv/config ./node_modules/.bin/semantic-release --dry-run"
   },
   "repository": {
     "url": "https://github.com/pablogm95/releasing-workflow-test",
@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "semantic-release": "^23.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
