@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "node -r dotenv/config ./node_modules/.bin/semantic-release --dry-run"
+    "release": "node -r dotenv/config ./node_modules/.bin/semantic-release"
   },
   "repository": {
     "url": "https://github.com/pablogm95/releasing-workflow-test.git",
