@@ -8,7 +8,7 @@
     "release": "node -r dotenv/config ./node_modules/.bin/semantic-release --dry-run"
   },
   "repository": {
-    "url": "https://github.com/pablogm95/releasing-workflow-test",
+    "url": "https://github.com/pablogm95/releasing-workflow-test.git",
     "type": "git"
   },
   "author": "",
