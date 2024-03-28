@@ -3,7 +3,7 @@
  * @see https://semantic-release.gitbook.io/semantic-release/usage/configuration#configuration
  */
 module.exports = {
-  branches: ["master"],
+  branches: ["master", "next", { name: "beta", prerelease: true }],
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/changelog",
